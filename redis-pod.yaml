@@ -7,5 +7,5 @@ spec:
     - name: redis-app
       image: redis:alpine
       ports:
-        - containerPort: 6379
         - name: redis-app
+          containerPort: 6379

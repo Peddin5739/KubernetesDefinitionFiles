@@ -7,8 +7,8 @@ spec:
     - name: db-app
       image: postgres:15-alpine
       ports:
-        - containerPort: 5432
         - name: db-app
+          containerPort: 5432
       env:
         - name: POSTGRES_USER
           value: "postgres"
